@@ -1,5 +1,71 @@
-.questionImage {
-    width: 45%;
-    height: 45%;
+.CardContainer {
+    display: flex;
+    background-color: linear-gradient(purple);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: -90px;
 }
 
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionImage {
+    width: 40%;
+    height: 40%;
+    z-index:1;
+}
+
+.Card {
+    display: flex;
+    margin-top: -220px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 0 10px;
+    height: 360px;
+    width: 45%;
+    padding-top: 130px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+.questionNum {
+    padding-top: 120px;
+    font-size: 16px;
+    color:rgb(145, 145, 145);
+}
+
+.question{
+    text-align: center;
+    font-size: 35px;
+    padding: 0 60px;
+    margin-top: 0;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 20px;
+    justify-content: center;
+}
+
+.Btn {
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    border: 2px solid rgb(145, 145, 145);
+    border-radius: 25px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 40%;
+}
