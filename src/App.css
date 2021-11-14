@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+ }
+
 .MainContainer {
-  background-image: linear-gradient(rgba(0, 37, 250, 0.50), rgb(106, 0, 245)), url('./assets/Honeycomb.png');
+  background: linear-gradient(rgb(61, 47, 255), rgb(106, 0, 245, 0.5)), url('./assets/Honeycomb.png');
+  background-size:cover;
   min-height:100%;
   position: absolute;
   z-index: -1;

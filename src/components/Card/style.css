@@ -16,8 +16,8 @@
 }
 
 .questionImage {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     z-index:1;
 }
 
@@ -30,8 +30,8 @@
     border: 2px solid #fff;
     border-radius: 15px;
     padding: 0 10px;
-    height: 360px;
-    width: 45%;
+    height: 340px;
+    width: 40%;
     padding-top: 130px;
     padding-bottom: 25px;
     background-color: white;
@@ -39,14 +39,14 @@
 
 .questionNum {
     padding-top: 120px;
-    font-size: 16px;
+    font-size: 14px;
     color:rgb(145, 145, 145);
 }
 
 .question{
     text-align: center;
-    font-size: 35px;
-    padding: 0 60px;
+    font-size: 28px;
+    padding: 0 70px;
     margin-top: 0;
 }
 
@@ -55,17 +55,33 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin: 0 20px;
+    margin: 0 30px;
     justify-content: center;
 }
 
 .Btn {
     justify-content: space-between;
     text-decoration: none;
+    text-align:left;
     color: rgb(145, 145, 145);
-    border: 2px solid rgb(145, 145, 145);
-    border-radius: 25px;
-    margin: 10px 10px;
-    padding: 10px 10px;
+    border: 1.2px solid rgb(209, 209, 209);
+    border-radius: 30px;
+    margin: 8px 10px;
+    padding: 8px 10px;
     width: 40%;
+    font-size: 14px;
+    background-color: white;
+}
+
+.Btn:hover {
+    box-shadow: 0 10px 10px -4px #d1d1d1;
+    transform: translateY(-0.25em);
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+.Btn:active,
+.Btn:focus{
+    color: rgb(71, 71, 71);
+    background-color: rgb(126 126 167 / 46%);
 }

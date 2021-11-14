@@ -13,10 +13,10 @@ const Card = () => {
                     <h2 className='questionNum'>Question 1</h2>
                     <h1 className='question'>What is the symbol for the EOS blockchain?</h1>
                     <div className='options'>
-                        <a href='/' className='Btn'>Chestahedron</a>
-                        <a href='/' className='Btn'>Tetrahedron</a>
-                        <a href='/' className='Btn'>Dodecahedron</a>
-                        <a href='/' className='Btn'>Polyhedron</a>
+                        <button className='Btn'>Chestahedron</button>
+                        <button className='Btn'>Tetrahedron</button>
+                        <button className='Btn'>Dodecahedron</button>
+                        <button className='Btn'>Polyhedron</button>
                     </div>
                 </div>
             </div>
