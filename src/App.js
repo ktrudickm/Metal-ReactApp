@@ -1,5 +1,4 @@
 import './App.css';
-import Background from './components/Background';
 import Card from './components/Card';
 import Logo from './assets/Logo.png';
 
